@@ -45,6 +45,12 @@
     img.style.height = "100%";
     img.style.objectFit = "cover";
     imgBox.appendChild(img);
+    if (work.demo) {
+      var badge = document.createElement("span");
+      badge.className = "demo-badge";
+      badge.textContent = "サンプル画像(実際の作品ではありません)";
+      imgBox.appendChild(badge);
+    }
   }
 
   document.getElementById("footer-artist-inline").textContent = "© " + data.artist.name + " アーカイブ";

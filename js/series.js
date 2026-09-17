@@ -43,6 +43,12 @@
         img.style.objectFit = "cover";
         ph.textContent = "";
         ph.appendChild(img);
+        if (w.demo) {
+          var badge = document.createElement("span");
+          badge.className = "demo-badge";
+          badge.textContent = "サンプル画像";
+          ph.appendChild(badge);
+        }
       } else {
         ph.textContent = "作品画像";
       }
