@@ -58,6 +58,7 @@ window.SITE_DATA = {
         { id: "tsuchi-02", title: "無題(器) 02", year: "1983", medium: "陶", size: "H 24 × W 20 cm", description: "", image: "" },
         { id: "tsuchi-03", title: "土の記憶", year: "1985", medium: "陶", size: "H 30 × W 26 cm", description: "", image: "" },
         { id: "tsuchi-04", title: "無題(器) 04", year: "1988", medium: "陶", size: "H 20 × W 18 cm", description: "", image: "" },
+        { id: "tsuchi-05", title: "花器(装飾)", year: "不詳", medium: "陶・彩色", size: "不詳", description: "花や葉、人物をあしらった装飾性の高い立体陶芸作品。", image: "images/ceramic-flower-01.jpg" },
       ],
     },
     {
@@ -106,6 +107,18 @@ window.SITE_DATA = {
         { id: "sanka-01", title: "無題(タイトル要確認)", year: "不詳", medium: "ミクストメディア", size: "不詳", description: "翼のような形をした電子部品による立体作品。展示プレートの文字が読み取りづらく、正式なタイトルは要確認。", image: "images/sanka.jpg" },
         { id: "hikarunami-01", title: "光る涛(ひかるなみ)", year: "不詳", medium: "立体造形", size: "不詳", description: "波と着物をモチーフに、金箔・銀箔を用いた立体作品。", image: "images/hikarunami.jpg" },
         { id: "vi14-01", title: "無題", year: "2014年頃", medium: "枯枝・紙・その他", size: "不詳", description: "赤の背景に枯枝と蛾をあしらった作品。サインの「vi 14」から2014年頃の制作と推定。", image: "images/vi14.jpg" },
+        { id: "mandala-01", title: "無題(マンダラ)", year: "不詳", medium: "ミクストメディア・コラージュ", size: "不詳", description: "円形のモチーフを中心に配したコラージュ作品。", image: "images/mandala-01.jpg" },
+        { id: "heiwa-01", title: "平和への光", year: "不詳", medium: "ミクストメディア", size: "不詳", description: "第75回流形展出品作。電子部品を用いた立体作品。", image: "images/heiwa-01.jpg" },
+      ],
+    },
+    {
+      id: "ikebana",
+      title: "生け花(いけばな)",
+      period: "不詳",
+      description: "小原流による生け花作品。植物や素材そのものを活かした構成。",
+      works: [
+        { id: "ikebana-01", title: "無題", year: "不詳", medium: "生花・器", size: "不詳", description: "瓢箪と実物を組み合わせた小原流の作品。", image: "images/ikebana-01.jpg" },
+        { id: "ikebana-02", title: "無題", year: "不詳", medium: "生花・器", size: "不詳", description: "彩色した葉と花を組み合わせた作品。", image: "images/ikebana-02.jpg" },
       ],
     },
     {
@@ -124,6 +137,15 @@ window.SITE_DATA = {
       description: "人物を描いた絵画作品。",
       works: [
         { id: "portrait-01", title: "無題(肖像)", year: "不詳", medium: "絵の具・キャンバス", size: "不詳", description: "眼鏡をかけた男性の肖像画。", image: "images/portrait-01.jpg" },
+      ],
+    },
+    {
+      id: "illustration",
+      title: "イラスト・書",
+      period: "不詳",
+      description: "手描きのイラストと書を組み合わせた作品。",
+      works: [
+        { id: "card-01", title: "無題(これからは一人前の鳥になる)", year: "不詳", medium: "紙・マーカー・書", size: "不詳", description: "イラストと書を組み合わせた作品。押印あり。", image: "images/card-01.jpg" },
       ],
     },
     {
