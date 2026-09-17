@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>シリーズ | 林うい アーカイブ</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Work+Sans:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header wrap">
+  <div class="logo" id="artist-name">&nbsp;</div>
+  <nav>
+    <a href="index.html">作品</a>
+    <a href="about.html">について</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="series-head">
+    <a href="index.html" class="back-link">← コレクション一覧</a>
+    <h1 id="series-title">&nbsp;</h1>
+    <p class="desc" id="series-desc">&nbsp;</p>
+    <div class="count" id="series-count">&nbsp;</div>
+  </div>
+
+  <div class="works-grid" id="works-grid"></div>
+  <p class="empty-note" id="empty-note" hidden>指定されたシリーズが見つかりませんでした。<a href="index.html">トップに戻る</a></p>
+
+  <div class="load-more" id="load-more-wrap" hidden>
+    <button class="btn" id="load-more-btn">もっと見る</button>
+  </div>
+</main>
+
+<footer class="site-footer wrap">
+  <span id="footer-artist">&nbsp;</span>
+  <span id="footer-note">&nbsp;</span>
+</footer>
+
+<script src="data/works.js"></script>
+<script src="js/series.js"></script>
+</body>
+</html>

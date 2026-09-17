@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>について | 林うい アーカイブ</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Work+Sans:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header wrap">
+  <div class="logo" id="artist-name">&nbsp;</div>
+  <nav>
+    <a href="index.html">作品</a>
+    <a href="about.html">について</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="series-head">
+    <a href="index.html" class="back-link">← トップに戻る</a>
+    <h1>このサイトについて</h1>
+    <p class="desc">
+      [ここに作家の経歴・略歴を記載します。生年、活動の拠点、主な制作テーマの変遷など。]
+    </p>
+    <p class="desc">
+      本サイトは非営利・非売品での公開を目的としています。掲載作品の無断転載・商用利用はご遠慮ください。
+      [著作権表示・利用に関する注意書きをここに記載]
+    </p>
+    <p class="desc">
+      お問い合わせ: [連絡先メールアドレスなどをここに記載]
+    </p>
+  </div>
+
+  <div style="padding: 0 0 80px;">
+    <div class="section-head"><span>展示会場の様子</span></div>
+    <img src="images/venue-flowers.jpg" alt="展示会場の花" style="width: 100%; max-width: 480px; border: 1px solid var(--line);">
+  </div>
+
+  <div style="padding: 0 0 100px;">
+    <div class="section-head"><span>ワークショップの様子</span></div>
+    <img src="images/workshop-kids.jpg" alt="ワークショップに参加する子どもたち" style="width: 100%; max-width: 480px; border: 1px solid var(--line); margin-bottom: 24px;">
+    <video src="images/workshop-video.mp4" controls playsinline style="width: 100%; max-width: 480px; border: 1px solid var(--line); display: block;"></video>
+  </div>
+</main>
+
+<footer class="site-footer wrap">
+  <span id="footer-artist">&nbsp;</span>
+  <span id="footer-note">&nbsp;</span>
+</footer>
+
+<script src="data/works.js"></script>
+<script>
+  document.getElementById("artist-name").textContent = window.SITE_DATA.artist.name;
+  document.getElementById("footer-artist").textContent = "© " + window.SITE_DATA.artist.name + " アーカイブ";
+  document.getElementById("footer-note").textContent = window.SITE_DATA.artist.footerNote;
+</script>
+</body>
+</html>
