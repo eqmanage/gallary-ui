@@ -19,7 +19,18 @@
 
     var ph = document.createElement("div");
     ph.className = "ph";
-    ph.textContent = "作品画像";
+    var coverWork = s.works.find(function (w) { return w.image; });
+    if (coverWork) {
+      var img = document.createElement("img");
+      img.src = coverWork.image;
+      img.alt = s.title;
+      img.style.width = "100%";
+      img.style.height = "100%";
+      img.style.objectFit = "cover";
+      ph.appendChild(img);
+    } else {
+      ph.textContent = "作品画像";
+    }
     a.appendChild(ph);
 
     var h3 = document.createElement("h3");
